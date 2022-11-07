@@ -11,5 +11,13 @@
   "keywords": [
     "fancn21th",
     "fanyj"
-  ]
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "fancn21th/fancn21th",
+  "author": {
+    "name": "Fan Yi Jie",
+    "email": "fancn21th@aliyun.com",
+    "url": "https://fancn21th.cn"
+  }
 }
