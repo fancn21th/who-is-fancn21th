@@ -1,5 +1,5 @@
 {
-  "name": "who-is-fancn21th",
+  "name": "fancn21th",
   "version": "0.0.1",
   "bin": {
     "fancn21th": "index.js"
