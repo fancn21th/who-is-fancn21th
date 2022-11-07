@@ -1,7 +1,7 @@
 {
   "name": "fancn21th",
   "description": "I am Fan, Yi Jie (fancn21th)",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "bin": {
     "fancn21th": "index.js"
   },
