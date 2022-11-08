@@ -1,7 +1,7 @@
 {
 	"name": "fancn21th",
 	"description": "I am Fan",
-	"version": "1.4.0",
+	"version": "1.4.1",
 	"bin": {
 		"fancn21th": "index.js"
 	},
