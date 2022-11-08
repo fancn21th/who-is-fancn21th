@@ -15,23 +15,23 @@ const info = chalk.blue.inverse;
 const warning = chalk.keyword('orange').inverse;
 const error = chalk.red.bold.inverse;
 
-init();
+(() => {
+	init();
 
-log(
-	`${primaryColor(' Fan, Yi-Jie ')}
+	log(
+		`${primaryColor(' Fan, Yi-Jie ')}
 
 ${italicTextColor(
-	'Software engineer @神州数码. Used to work @HP. Love art and design of good thins. Wonder loving programming or not. Into Math in a strange way. After comedies tv series or sci-fi movies. Enjoy different genres of music.'
+	'Software engineer @神州数码. Used to work @HP. Love art and design of good things. Wonder loving programming or not. Into Math in a strange way. After comedies tv series or sci-fi movies. Enjoy different genres of music.'
 )}
 
 ${primaryColor(' Github ')}:   ${textColor('https://github.com/fancn21th')}
-
 ${secondaryColor(' Website ')}:  ${textColor('https://fancn21th.cn')}
 `
-);
+	);
 
-log(
-	`${symbols.success} ${success(' Success ')} Thanks for viewing my bio.
+	log(
+		`${symbols.success} ${success(' Success ')} Thanks for viewing my bio.
 
 ${symbols.info} ${info(' Info ')} this command cli is very enlightened by Awais.
 
@@ -39,4 +39,5 @@ ${symbols.warning} ${warning(' Warning ')} Ready for challenge.
 
 ${symbols.error} ${error(' Error ')} I'm out of space.
 `
-);
+	);
+})();
