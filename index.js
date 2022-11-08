@@ -7,6 +7,18 @@ const {bio, social} = require('./utils/data');
 // log
 const log = console.log;
 
+const helpText = `
+	Usage
+		npx fancn21th [options]
+
+	Options
+		social					Show social information
+		--no-social  		Not show social information
+
+	Examples
+		npx fancn21th --no-social
+`;
+
 const options = {
 	flags: {
 		social: {
@@ -16,7 +28,7 @@ const options = {
 	}
 };
 
-const cli = meow(`RUN: npx fancn21th`, options);
+const cli = meow(helpText, options);
 
 (() => {
 	init();
