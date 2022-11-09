@@ -10,6 +10,8 @@ const log = console.log;
 (() => {
 	init();
 
+	cli.input.includes('help') && cli.showHelp(0);
+
 	log(bio);
 
 	cli.flags.social && log(social);

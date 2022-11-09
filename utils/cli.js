@@ -24,6 +24,11 @@ const options = {
 			type: 'boolean',
 			default: false,
 			alias: 'd'
+		},
+		version: {
+			type: 'boolean',
+			default: false,
+			alias: 'v'
 		}
 	}
 };
