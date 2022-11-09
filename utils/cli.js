@@ -1,16 +1,20 @@
 const meow = require('meow');
 
 const helpText = `
-Usage
-	npx fancn21th [options]
+		Usage
+			npx fancn21th [options] <commands>
 
-Options
-	-s,	--social					Show social information
-	--no-social  					Not show social information
-	-d,	--debug						Show debug information
+		Options
+			-s,	--social		Print social information
+			--no-social			Not print social information
+			-d,	--debug			Print debug information
+			-v,	--version		Print version
 
-Examples
-	npx fancn21th --no-social
+		Commands
+			help						Print CLI help information
+
+		Examples
+			npx fancn21th --no-social
 `;
 
 const options = {
