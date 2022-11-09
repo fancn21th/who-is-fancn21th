@@ -1,20 +1,22 @@
 const meow = require('meow');
+const {green, yellow, cyan} = require('chalk');
 
 const helpText = `
 		Usage
-			npx fancn21th [options] <commands>
+			${green('npx fancn21th')} ${yellow('[options]')} ${cyan('<commands>')}
 
 		Options
-			-s,	--social		Print social information
-			--no-social			Not print social information
-			-d,	--debug			Print debug information
-			-v,	--version		Print version
+			${yellow('--social, -s')}				Print social information
+			${yellow('--no-social')}				Not print social information
+			${yellow('--debug, -d')}				Print debug information
+			${yellow('--version, -v')}				Print version
 
 		Commands
-			help						Print CLI help information
+			${cyan('help')}					Print CLI help information
 
 		Examples
-			npx fancn21th --no-social
+			${green('npx fancn21th')} ${yellow('--no-social')}
+			${green('npx fancn21th')} ${cyan('help')}
 `;
 
 const options = {
