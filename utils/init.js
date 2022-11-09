@@ -9,7 +9,7 @@ module.exports = () => {
 	welcome({
 		title,
 		description,
-		tagLine: `hello there`,
+		tagLine: `oh, hello there`,
 		version,
 		bgColor: `#1da1f2`,
 		color: `#000000`,

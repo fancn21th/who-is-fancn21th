@@ -1,6 +1,6 @@
 {
 	"name": "fancn21th",
-	"description": "A command cli that spits my bio",
+	"description": "There is a command cli pouring my bio",
 	"version": "2.0.0",
 	"bin": {
 		"fancn21th": "index.js"
