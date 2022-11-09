@@ -1,7 +1,7 @@
 {
 	"name": "fancn21th",
 	"description": "There is a command cli pouring my bio",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"bin": {
 		"fancn21th": "index.js"
 	},
